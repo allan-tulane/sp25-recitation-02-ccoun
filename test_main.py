@@ -2,9 +2,9 @@ from main import *
 
 def test_simple_work():
 	""" done. """
-	assert work_calc(10, 2, 2) == #TODO
-	assert work_calc(20, 3, 2) == #TODO
-	assert work_calc(30, 4, 2) == #TODO
+	assert work_calc(10, 2, 2) == 32
+	assert work_calc(20, 3, 2) == 259
+	assert work_calc(30, 4, 2) == 1430
 
 def test_work():
 	assert work_calc(10, 2, 2,lambda n: 1) == #TODO
