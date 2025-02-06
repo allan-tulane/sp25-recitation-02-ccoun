@@ -18,6 +18,7 @@ def simple_work_calc(n, a, b):
 	Returns: the value of W(n).
 	"""
 	# TODO
+	return a*simple_work_calc(n/b, a, b) + n
 	pass
 
 def work_calc(n, a, b, f):
